@@ -1,8 +1,12 @@
 import React from 'react'
 import {Form} from "react-bootstrap";
+
+
 import "./login.scss";
 import Basic from "../BasicExample";
 import BasicExample from '../BasicExample';
+
+
 function login() {
   return (
     <div className="login">
@@ -15,7 +19,7 @@ function login() {
   )
 }
 function FormLogin(){
-    return(
+    
         <Form className='mt-1 mb-1 loginA'>
             <div className='form-item'><span className='icon-user'></span><input type="text" name="" id="" placeholder='UserName' /></div>
             <div className='form-item'><span className='icon-pass'></span><input type="password" name="" id="" placeholder='Password' /></div>
@@ -23,7 +27,7 @@ function FormLogin(){
             <div className='d-flex justify-content-center my-2'><input className='form-item__button' type="button" value="Iniciar sesión" /></div>
             <div className="line"></div>
         </Form>
-    );
+    
 }
 function FormRegistrate(){
   return(
@@ -33,4 +37,4 @@ function FormRegistrate(){
       </Form>
   );
 }
-export default login;
+// export default login;

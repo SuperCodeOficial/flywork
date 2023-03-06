@@ -1,5 +1,5 @@
 import Dropdown from 'react-bootstrap/Dropdown';
-import Modal1 from "./StaticExample";
+
 
 function BasicExample() {
   return (
@@ -9,11 +9,12 @@ function BasicExample() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item  href="#/StaticExample">Aspirante</Dropdown.Item>
+        <Dropdown.Item href="#/StaticExample">Aspirante</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Empresa</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );
 }
 
-export default BasicExample;
+  
+// export default BasicExample;
