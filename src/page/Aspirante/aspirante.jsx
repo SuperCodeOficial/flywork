@@ -1,20 +1,13 @@
 import {React, useState} from 'react'
 import {Container, Row, Col, Form} from "react-bootstrap";
-import Login from ".././../components/Login";
+// import Login from ".././../components/Login";
 import Registro from ".././../components/BasicModal";
-import "./home.scss";
+// import "./home.scss";
 
 
-export default function home() {
-  const[showModal, setshowModal] = useState(false);
-    const[contentModal, setContentModal]  = useState(null);
-
-    const openModal = content => {
-        setshowModal(true);
-        setContentModal(content);
-    };
+export default function Aspirante() {
   return (
-    <div className='home'>
+    <div className='aspirante'>
       
       <Container>
         <Row>
@@ -33,6 +26,5 @@ export default function home() {
           
       <div className='home-footer text-center'>@2023 todos los derechos reservados EM</div>
     </div>
-
-  )
+ )
 }
